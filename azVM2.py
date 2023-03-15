@@ -4,9 +4,9 @@ from azure.mgmt.network import NetworkManagementClient
 import pandas as pd
 
 credential = DefaultAzureCredential()
-compute_client = ComputeManagementClient(credential, subscription_id='5126eacd-7599-4aaf-8799-3a5e824f094c')
-network_client = NetworkManagementClient(credential, subscription_id='5126eacd-7599-4aaf-8799-3a5e824f094c')
-subscription_ids = ['5126eacd-7599-4aaf-8799-3a5e824f094c']
+compute_client = ComputeManagementClient(credential, subscription_id='enter sub id')
+network_client = NetworkManagementClient(credential, subscription_id='enter sub id')
+subscription_ids = ['enter sub id']
 
 #Total number of VMs
 vm_list = compute_client.virtual_machines.list_all()
