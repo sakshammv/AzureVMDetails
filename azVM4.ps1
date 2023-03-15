@@ -5,7 +5,7 @@ Connect-AzAccount
 $report = @()
  
 # Record all the subscriptions in a Text file  
-$SubscriptionIds = "5126eacd-7599-4aaf-8799-3a5e824f094c"
+$SubscriptionIds = ""
 Foreach ($SubscriptionId in $SubscriptionIds) 
 {
 $reportName = "VM-Details.csv"
